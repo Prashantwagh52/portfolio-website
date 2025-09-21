@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashant Wagh - Full Stack Java Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', 'Arial', sans-serif;
+            line-height: 1.4;
+            color: #2c3e50;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.4in;
+            background: white;
+            font-size: 10pt;
+        }
+        
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #34495e;
+        }
+        
+        .name {
+            font-size: 26pt;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+        
+        .title {
+            font-size: 14pt;
+            color: #7f8c8d;
+            margin-bottom: 12px;
+            font-weight: 500;
+        }
+        
+        .contact-info {
+            font-size: 9pt;
+            color: #34495e;
+            line-height: 1.6;
+        }
+        
+        .contact-row {
+            margin-bottom: 4px;
+        }
+        
+        .section {
+            margin-bottom: 22px;
+        }
+        
+        .section-title {
+            font-size: 12pt;
+            font-weight: 700;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 4px;
+            margin-bottom: 12px;
+        }
+        
+        .summary {
+            font-size: 10pt;
+            text-align: justify;
+            line-height: 1.5;
+            color: #34495e;
+        }
+        
+        .skills-container {
+            font-size: 9pt;
+        }
+        
+        .skill-group {
+            margin-bottom: 12px;
+            clear: both;
+            overflow: hidden;
+        }
+        
+        .skill-label {
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            display: block;
+            width: 100%;
+        }
+        
+        .skill-items {
+            color: #34495e;
+            line-height: 1.6;
+            display: block;
+            width: 100%;
+            word-wrap: break-word;
+        }
+        
+        .key-skill {
+            background: #e74c3c;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 8pt;
+            font-weight: bold;
+            margin-right: 6px;
+            display: inline-block;
+            margin-bottom: 4px;
+        }
+        
+        .experience-item {
+            margin-bottom: 18px;
+            font-size: 9pt;
+        }
+        
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 4px;
+        }
+        
+        .job-title {
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 11pt;
+        }
+        
+        .job-period {
+            font-weight: 600;
+            color: #7f8c8d;
+            font-size: 9pt;
+        }
+        
+        .company {
+            font-weight: 600;
+            color: #34495e;
+            margin-bottom: 6px;
+            font-size: 10pt;
+        }
+        
+        .achievements {
+            margin-left: 0;
+            list-style: none;
+            margin-bottom: 6px;
+        }
+        
+        .achievements li {
+            margin-bottom: 3px;
+            padding-left: 12px;
+            position: relative;
+            color: #34495e;
+            line-height: 1.4;
+        }
+        
+        .achievements li:before {
+            content: "•";
+            color: #3498db;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .project-item {
+            margin-bottom: 14px;
+            font-size: 9pt;
+        }
+        
+        .project-title {
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 4px;
+            font-size: 10pt;
+        }
+        
+        .project-description {
+            color: #34495e;
+            margin-bottom: 4px;
+            line-height: 1.4;
+            text-align: justify;
+        }
+        
+        .technologies {
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 8pt;
+            background: #ecf0f1;
+            padding: 4px 8px;
+            border-radius: 3px;
+        }
+        
+        .education-item {
+            margin-bottom: 12px;
+            font-size: 9pt;
+        }
+        
+        .degree {
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 10pt;
+        }
+        
+        .institution {
+            font-weight: 600;
+            color: #34495e;
+            margin-bottom: 3px;
+        }
+        
+        .education-details {
+            color: #7f8c8d;
+            font-size: 9pt;
+        }
+        
+        .certifications {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .certifications li {
+            margin-bottom: 4px;
+            padding-left: 12px;
+            position: relative;
+            color: #34495e;
+            font-size: 9pt;
+        }
+        
+        .certifications li:before {
+            content: "✓";
+            color: #27ae60;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        @media print {
+            body {
+                padding: 0.3in;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">PRASHANT WAGH</div>
+        <div class="title">Full Stack Java Developer</div>
+        <div class="contact-info">
+            <div class="contact-row">Email: waghprashant6563@gmail.com | Phone: +91-9420952286</div>
+            <div class="contact-row">Location: Hyderabad, India | LinkedIn: linkedin.com/in/prashant-wagh-sonar-1982a4214</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <div class="summary">
+            Results-driven Full Stack Java Developer with 2.8+ years of experience in designing, developing, and deploying robust software solutions using Java, Spring Boot, React.js, and AWS. Skilled in optimizing performance, implementing efficient code, and delivering high-quality software in fast-paced environments.
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Core Technical Competencies</div>
+        <div class="skills-container">
+            <div class="skill-group">
+                <div class="skill-label">Programming Languages</div>
+                <div class="skill-items">
+                    <span class="key-skill">Java</span>
+                    JavaScript ES6+, TypeScript, SQL, Python
+                </div>
+            </div>
+            <div class="skill-group">
+                <div class="skill-label">Backend Technologies</div>
+                <div class="skill-items">
+                    <span class="key-skill">Spring Boot</span>
+                    <span class="key-skill">Microservices</span>
+                    <span class="key-skill">Spring Security</span>
+                    Spring Data JPA, Spring Cloud, Spring AI, Hibernate, JPA
+                </div>
+            </div>
+            <div class="skill-group">
+                <div class="skill-label">Frontend Technologies</div>
+                <div class="skill-items">
+                    <span class="key-skill">React.js</span>
+                    <span class="key-skill">Redux</span>
+                    HTML5, CSS3, Bootstrap, Material-UI, JavaScript
+                </div>
+            </div>
+            <div class="skill-group">
+                <div class="skill-label">Cloud & DevOps</div>
+                <div class="skill-items">
+                    <span class="key-skill">AWS</span>
+                    <span class="key-skill">Docker</span>
+                    EC2, S3, RDS, Lambda, IAM, VPC, Kubernetes, Jenkins, CI/CD
+                </div>
+            </div>
+            <div class="skill-group">
+                <div class="skill-label">Databases & Storage</div>
+                <div class="skill-items">
+                    <span class="key-skill">MySQL</span>
+                    PostgreSQL, MongoDB, Redis, MSSQL, Database Design
+                </div>
+            </div>
+            <div class="skill-group">
+                <div class="skill-label">Tools & Methodologies</div>
+                <div class="skill-items">Git, Maven, Gradle, Postman, JMeter, Agile/Scrum, TDD, Code Review</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Experience</div>
+        
+        <div class="experience-item">
+            <div class="job-header">
+                <div class="job-title">Full Stack Java Developer + Cloud</div>
+                <div class="job-period">November 2024 - Present</div>
+            </div>
+            <div class="company">Smac-X Inno Labs Pvt Ltd</div>
+            <ul class="achievements">
+                <li>Leading development of two enterprise projects from scratch—Ticketing Tool and Vendor Portal—reducing manual SAP operations by 60%</li>
+                <li>Architected secure and scalable backend systems using Spring Boot, Spring Security, and Spring Data JPA, handling over 1M database transactions monthly</li>
+                <li>Built and deployed 40+ highly responsive UI components with React.js and Redux, increasing user satisfaction scores by 30%</li>
+                <li>Managed AWS infrastructure, including EC2, S3, RDS, VPC, IAM, and Route 53, achieving 99.99% uptime and cutting deployment time by 40%</li>
+                <li>Implemented WebSocket-based real-time chat and notification features, enhancing communication efficiency by 45% within the platform</li>
+                <li>Integrated SAP services to deliver cloud-native solutions, ensuring seamless compatibility with SAP environments and improving deployment efficiency by 35%</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-header">
+                <div class="job-title">Full Stack Java Developer</div>
+                <div class="job-period">February 2023 - October 2024</div>
+            </div>
+            <div class="company">Engeniuspark Technologies, Nashik</div>
+            <ul class="achievements">
+                <li>Developed and maintained RESTful APIs and microservices using Spring Boot, Spring Cloud, Spring Data JPA, and Spring Security, improving backend reliability by 40%</li>
+                <li>Implemented JWT-based authentication and authorization, reducing unauthorized access by 90% and aligning with enterprise-grade security standards</li>
+                <li>Designed scalable and fault-tolerant microservices architecture using Spring Cloud, improving system availability to 99.9% during high-traffic events</li>
+                <li>Built real-time features like chat and notifications using WebSocket and STOMP, enhancing user engagement by 50% across core modules</li>
+                <li>Deployed Dockerized microservices to AWS EC2 with S3 and RDS integrations, achieving 100% deployment consistency and reducing infrastructure cost by 20%</li>
+                <li>Mentored 5 junior developers on Java and React.js, raising overall code quality and increasing team productivity by 25% in under six months</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-header">
+                <div class="job-title">Full Stack Java Developer Intern</div>
+                <div class="job-period">January 2023 - February 2023</div>
+            </div>
+            <div class="company">Oasis Infobyte</div>
+            <ul class="achievements">
+                <li>Developed web applications using Java, Spring Boot, and React.js during intensive training program</li>
+                <li>Built responsive frontend components and integrated with backend APIs for seamless user experience</li>
+                <li>Gained hands-on experience with database operations using MySQL and implemented CRUD functionalities</li>
+                <li>Collaborated with development team on multiple projects and learned industry best practices</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Key Technical Projects</div>
+        
+        <div class="project-item">
+            <div class="project-title">AI-Powered Customer Support System</div>
+            <div class="project-description">
+                Developed intelligent chatbot system integrating Spring AI with OpenAI API, featuring real-time WebSocket communication and natural language processing capabilities. Achieved 70% automation of customer queries and 40% reduction in support response time.
+            </div>
+            <div class="technologies">Technologies: Spring Boot, Spring AI, OpenAI API, WebSocket, React.js, Natural Language Processing</div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-title">GraphQL-Based Order Management System</div>
+            <div class="project-description">
+                Architected modern order and customer management system using GraphQL, replacing traditional REST APIs. Reduced API response complexity by 60% and improved data fetching efficiency by 45%, supporting real-time order tracking for 10,000+ daily transactions.
+            </div>
+            <div class="technologies">Technologies: Spring Boot, GraphQL, MySQL, Spring Data JPA, React.js, Real-time Updates</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        
+        <div class="education-item">
+            <div class="degree">B.Tech</div>
+            <div class="institution">Dr.Babasaheb Ambedkar Technological University</div>
+            <div class="education-details">CGPA: 8.4/10 | Graduated: 2023</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Certifications</div>
+        <ul class="certifications">
+            <li>Full Stack Java Development</li>
+            <li>AWS Cloud Practitioner Essentials</li>
+        </ul>
+    </div>
+</body>
+</html>

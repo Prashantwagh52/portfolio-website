@@ -1,0 +1,68 @@
+.theme-toggle {
+  position: fixed;
+  top: 100px;
+  right: 30px;
+  width: 60px;
+  height: 30px;
+  background: linear-gradient(45deg, #3498db, #e74c3c);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.toggle-slider {
+  width: 26px;
+  height: 26px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  margin: 2px;
+}
+
+.toggle-slider.dark {
+  transform: translateX(30px);
+  background: #2c3e50;
+}
+
+.toggle-icon {
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+/* Dark theme styles */
+body.dark-theme {
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
+body.dark-theme .section {
+  background: #2c2c2c;
+}
+
+body.dark-theme .card {
+  background: #3a3a3a;
+  border-color: #555;
+}
+
+body.dark-theme .header {
+  background: rgba(26, 26, 26, 0.95);
+}
+
+body.dark-theme .nav-link {
+  color: #ffffff;
+}
+
+body.dark-theme .hero {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 100%);
+}

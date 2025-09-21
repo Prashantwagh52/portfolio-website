@@ -1,0 +1,96 @@
+PRASHANT WAGH
+Full Stack Java Developer
+Email: waghprashant6563@gmail.com
+Phone: +91-9420952286
+Location: Hyderabad, India
+LinkedIn: linkedin.com/in/prashant-wagh-sonar-1982a4214
+
+PROFESSIONAL SUMMARY
+Results-driven Full Stack Java Developer with 2.6+ years of experience in designing, developing, and deploying robust enterprise applications using Java, Spring Boot, React.js, and AWS. Proven track record of reducing manual operations by 60%, improving system reliability by 40%, and achieving 99.99% uptime. Expertise in microservices architecture, cloud-native solutions, and real-time features implementation. Strong problem-solving skills with experience in Agile methodologies and team collaboration.
+
+TECHNICAL SKILLS
+Programming Languages: Java, JavaScript, SQL, HTML, CSS
+Frameworks and Libraries: Spring Boot, Spring Security, Spring Data JPA, Spring Cloud, Spring AI, React.js, Redux
+Cloud Technologies: AWS (EC2, S3, RDS, IAM, VPC), Docker, Kubernetes
+Databases: MySQL, MSSQL, Redis, PostgreSQL
+Tools and Technologies: Git, Jenkins, Postman, JMeter, Maven, Gradle, WebSocket, GraphQL
+Methodologies: Agile, Scrum, Microservices Architecture, RESTful APIs, CI/CD, Unit Testing, Code Review
+
+WORK EXPERIENCE
+
+Full Stack Java Developer + Cloud
+Smac-X Inno Labs Pvt Ltd, Hyderabad
+November 2024 - Present
+
+Leading development of enterprise projects from scratch—Ticketing Tool and Vendor Portal—reducing manual SAP operations by 60%. Architected secure backend systems handling 1M+ monthly transactions and managed AWS infrastructure achieving 99.99% uptime.
+
+Key Achievements:
+- Developed enterprise ticketing system with Spring Boot and React.js, improving operational efficiency
+- Implemented Spring Security with JWT authentication, reducing unauthorized access by 90%
+- Integrated WebSocket for real-time features and Spring AI for automated customer query handling
+- Managed AWS cloud infrastructure with EC2, RDS, and S3 for scalable deployment
+
+Technologies: Spring Boot, React.js, AWS, Spring Security, WebSocket, Spring AI, SAP Integration
+
+Full Stack Java Developer
+Engeniuspark Technologies, Hyderabad
+February 2023 - October 2024
+
+Developed RESTful APIs and microservices using Spring Boot, improving backend reliability by 40%. Implemented JWT authentication and deployed Dockerized services to AWS, cutting infrastructure costs by 20%.
+
+Key Achievements:
+- Built scalable microservices architecture using Spring Boot and Spring Cloud
+- Developed responsive web applications with React.js and Redux for state management
+- Implemented CI/CD pipelines using Jenkins and Docker for automated deployment
+- Optimized database queries and implemented caching strategies with Redis
+- Collaborated with cross-functional teams using Agile methodology and code review practices
+
+Technologies: Spring Boot, Spring Cloud, React.js, Docker, AWS EC2, MySQL, JWT, Redis
+
+KEY PROJECTS
+
+Spring AI Chatbot Integration
+Integrated Spring AI into Spring Boot application enabling real-time chat using OpenAI API, automating 70% of customer queries and enhancing user interaction through WebSocket implementation.
+Technologies: Spring Boot, Spring AI, OpenAI API, WebSocket, React.js
+
+GraphQL Order and Customer Service
+Designed Order and Customer services using GraphQL in Spring Boot, reducing API response complexity by 60% compared to traditional REST APIs and improving data fetching efficiency.
+Technologies: Spring Boot, GraphQL, MySQL, Spring Data JPA, React.js
+
+Enterprise Vendor Portal System
+Built scalable vendor management portal with real-time features, handling 1M+ database transactions monthly with 99.99% uptime and secure authentication system.
+Technologies: Spring Boot, React.js, Redux, AWS RDS, WebSocket, Spring Security
+
+EDUCATION
+
+Bachelor of Engineering in Computer Science
+Pune University, Maharashtra
+CGPA: 8.2/10
+Merit Scholarship Recipient
+Coding Competition Winner
+Graduated: 2022
+
+CERTIFICATIONS AND ACHIEVEMENTS
+
+- AWS Certified Solutions Architect Associate (In Progress)
+- Oracle Certified Professional Java SE Developer
+- Spring Boot Microservices Certification
+- Merit Scholarship for Academic Excellence
+- Winner - College Level Coding Competition
+
+ADDITIONAL SKILLS
+
+- Problem Solving
+- Team Collaboration
+- Performance Optimization
+- System Design
+- Database Design
+- API Development
+- Cloud Architecture
+- Security Implementation
+- Agile Development
+- Code Review
+- Unit Testing
+- Integration Testing
+- Deployment Automation
+- Monitoring and Logging

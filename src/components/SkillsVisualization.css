@@ -1,0 +1,50 @@
+.tech-stack {
+  margin: 20px 0;
+}
+
+.tech-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.tech-item:hover {
+  transform: scale(1.05);
+}
+
+.tech-icon {
+  font-size: 14px;
+}
+
+.tech-name {
+  white-space: nowrap;
+}
+
+body.dark-theme .tech-item {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+}
+
+@media (max-width: 768px) {
+  .tech-item {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+  
+  .tech-icon {
+    font-size: 12px;
+  }
+}

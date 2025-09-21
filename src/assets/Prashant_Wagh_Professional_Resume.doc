@@ -1,0 +1,246 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<title>Prashant Wagh - Full Stack Java Developer</title>
+<style>
+@page {
+    margin: 0.4in;
+    size: 8.5in 11in;
+}
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 10pt;
+    line-height: 1.4;
+    margin: 0;
+    color: #2c3e50;
+}
+.header {
+    text-align: center;
+    border-bottom: 2pt solid #34495e;
+    padding-bottom: 12pt;
+    margin-bottom: 16pt;
+}
+.name {
+    font-size: 20pt;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 6pt;
+    letter-spacing: 1pt;
+}
+.title {
+    font-size: 12pt;
+    color: #7f8c8d;
+    margin-bottom: 8pt;
+    font-weight: 500;
+}
+.contact-info {
+    font-size: 9pt;
+    color: #34495e;
+    line-height: 1.6;
+}
+.section-title {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #2c3e50;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    border-bottom: 2pt solid #3498db;
+    padding-bottom: 3pt;
+    margin-bottom: 8pt;
+    margin-top: 12pt;
+}
+.summary {
+    font-size: 10pt;
+    text-align: justify;
+    margin-bottom: 6pt;
+    color: #34495e;
+    line-height: 1.5;
+}
+.job-title {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 10pt;
+}
+.job-period {
+    font-weight: bold;
+    color: #7f8c8d;
+    font-size: 9pt;
+    float: right;
+}
+.company {
+    font-weight: bold;
+    font-size: 10pt;
+    margin-bottom: 4pt;
+    color: #34495e;
+}
+ul {
+    margin-left: 0pt;
+    margin-bottom: 4pt;
+    list-style: none;
+}
+li {
+    font-size: 9pt;
+    margin-bottom: 2pt;
+    padding-left: 12pt;
+    color: #34495e;
+    line-height: 1.4;
+}
+.skill-group {
+    margin-bottom: 8pt;
+    font-size: 9pt;
+    clear: both;
+}
+.skill-label {
+    font-weight: bold;
+    color: #2c3e50;
+    display: block;
+    margin-bottom: 3pt;
+}
+.skill-items {
+    color: #34495e;
+    display: block;
+    line-height: 1.6;
+}
+.key-skill {
+    background-color: #e74c3c;
+    color: white;
+    padding: 2pt 6pt;
+    font-weight: bold;
+    font-size: 8pt;
+    margin-right: 4pt;
+    margin-bottom: 2pt;
+}
+.project-title {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 10pt;
+    margin-bottom: 3pt;
+}
+.technologies {
+    font-style: italic;
+    color: #7f8c8d;
+    font-size: 8pt;
+    background-color: #ecf0f1;
+    padding: 3pt 6pt;
+    margin-bottom: 8pt;
+}
+.degree {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 10pt;
+}
+.institution {
+    font-weight: bold;
+    font-size: 10pt;
+    color: #34495e;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <div class="name">PRASHANT WAGH</div>
+    <div class="title">Full Stack Java Developer</div>
+    <div class="contact-info">
+        Email: waghprashant6563@gmail.com | Phone: +91-9420952286<br>
+        Location: Hyderabad, India | LinkedIn: linkedin.com/in/prashant-wagh-sonar-1982a4214
+    </div>
+</div>
+
+<div class="section-title">PROFESSIONAL SUMMARY</div>
+<div class="summary">
+Results-driven Full Stack Java Developer with 2.8+ years of experience in designing, developing, and deploying robust software solutions using Java, Spring Boot, React.js, and AWS. Skilled in optimizing performance, implementing efficient code, and delivering high-quality software in fast-paced environments.
+</div>
+
+<div class="section-title">CORE TECHNICAL COMPETENCIES</div>
+<div class="skill-group">
+    <span class="skill-label">Programming Languages:</span>
+    <span class="skill-items"><span class="key-skill">Java</span> JavaScript ES6+, TypeScript, SQL, Python</span>
+</div>
+<div class="skill-group">
+    <span class="skill-label">Backend Technologies:</span>
+    <span class="skill-items"><span class="key-skill">Spring Boot</span> <span class="key-skill">Microservices</span> <span class="key-skill">Spring Security</span> Spring Data JPA, Spring Cloud, Spring AI, Hibernate</span>
+</div>
+<div class="skill-group">
+    <span class="skill-label">Frontend Technologies:</span>
+    <span class="skill-items"><span class="key-skill">React.js</span> <span class="key-skill">Redux</span> HTML5, CSS3, Bootstrap, Material-UI, JavaScript</span>
+</div>
+<div class="skill-group">
+    <span class="skill-label">Cloud & DevOps:</span>
+    <span class="skill-items"><span class="key-skill">AWS</span> <span class="key-skill">Docker</span> EC2, S3, RDS, Lambda, IAM, VPC, Kubernetes, Jenkins, CI/CD</span>
+</div>
+<div class="skill-group">
+    <span class="skill-label">Databases & Storage:</span>
+    <span class="skill-items"><span class="key-skill">MySQL</span> PostgreSQL, MongoDB, Redis, MSSQL, Database Design</span>
+</div>
+<div class="skill-group">
+    <span class="skill-label">Tools & Methodologies:</span>
+    <span class="skill-items">Git, Maven, Gradle, Postman, JMeter, Agile/Scrum, TDD, Code Review</span>
+</div>
+
+<div class="section-title">PROFESSIONAL EXPERIENCE</div>
+
+<div class="job-title">Full Stack Java Developer + Cloud</div>
+<div class="job-period">November 2024 - Present</div>
+<div style="clear: both;"></div>
+<div class="company">Smac-X Inno Labs Pvt Ltd</div>
+<ul>
+    <li>• Leading development of two enterprise projects from scratch—Ticketing Tool and Vendor Portal—reducing manual SAP operations by 60%</li>
+    <li>• Architected secure and scalable backend systems using Spring Boot, Spring Security, and Spring Data JPA, handling over 1M database transactions monthly</li>
+    <li>• Built and deployed 40+ highly responsive UI components with React.js and Redux, increasing user satisfaction scores by 30%</li>
+    <li>• Managed AWS infrastructure, including EC2, S3, RDS, VPC, IAM, and Route 53, achieving 99.99% uptime and cutting deployment time by 40%</li>
+    <li>• Implemented WebSocket-based real-time chat and notification features, enhancing communication efficiency by 45% within the platform</li>
+    <li>• Integrated SAP services to deliver cloud-native solutions, ensuring seamless compatibility with SAP environments and improving deployment efficiency by 35%</li>
+</ul>
+
+<div class="job-title">Full Stack Java Developer</div>
+<div class="job-period">February 2023 - October 2024</div>
+<div style="clear: both;"></div>
+<div class="company">Engeniuspark Technologies, Nashik</div>
+<ul>
+    <li>• Developed and maintained RESTful APIs and microservices using Spring Boot, Spring Cloud, Spring Data JPA, and Spring Security, improving backend reliability by 40%</li>
+    <li>• Implemented JWT-based authentication and authorization, reducing unauthorized access by 90% and aligning with enterprise-grade security standards</li>
+    <li>• Designed scalable and fault-tolerant microservices architecture using Spring Cloud, improving system availability to 99.9% during high-traffic events</li>
+    <li>• Built real-time features like chat and notifications using WebSocket and STOMP, enhancing user engagement by 50% across core modules</li>
+    <li>• Deployed Dockerized microservices to AWS EC2 with S3 and RDS integrations, achieving 100% deployment consistency and reducing infrastructure cost by 20%</li>
+    <li>• Mentored 5 junior developers on Java and React.js, raising overall code quality and increasing team productivity by 25% in under six months</li>
+</ul>
+
+<div class="job-title">Full Stack Java Developer Intern</div>
+<div class="job-period">January 2023 - February 2023</div>
+<div style="clear: both;"></div>
+<div class="company">Oasis Infobyte</div>
+<ul>
+    <li>• Developed web applications using Java, Spring Boot, and React.js during intensive training program</li>
+    <li>• Built responsive frontend components and integrated with backend APIs for seamless user experience</li>
+    <li>• Gained hands-on experience with database operations using MySQL and implemented CRUD functionalities</li>
+    <li>• Collaborated with development team on multiple projects and learned industry best practices</li>
+</ul>
+
+<div class="section-title">KEY TECHNICAL PROJECTS</div>
+
+<div class="project-title">AI-Powered Customer Support System</div>
+<div>Developed intelligent chatbot system integrating Spring AI with OpenAI API, featuring real-time WebSocket communication and natural language processing capabilities. Achieved 70% automation of customer queries and 40% reduction in support response time.</div>
+<div class="technologies">Technologies: Spring Boot, Spring AI, OpenAI API, WebSocket, React.js, Natural Language Processing</div>
+
+<div class="project-title">GraphQL-Based Order Management System</div>
+<div>Architected modern order and customer management system using GraphQL, replacing traditional REST APIs. Reduced API response complexity by 60% and improved data fetching efficiency by 45%, supporting real-time order tracking for 10,000+ daily transactions.</div>
+<div class="technologies">Technologies: Spring Boot, GraphQL, MySQL, Spring Data JPA, React.js, Real-time Updates</div>
+
+<div class="section-title">EDUCATION</div>
+
+<div class="degree">B.Tech</div>
+<div class="institution">Dr.Babasaheb Ambedkar Technological University</div>
+<div>CGPA: 8.4/10 | Graduated: 2023</div>
+
+<div class="section-title">CERTIFICATIONS</div>
+<ul>
+    <li>✓ Full Stack Java Development</li>
+    <li>✓ AWS Cloud Practitioner Essentials</li>
+</ul>
+
+</body>
+</html>
