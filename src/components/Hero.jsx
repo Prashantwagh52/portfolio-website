@@ -15,10 +15,10 @@ const Hero = () => {
               <TypingAnimation 
                 texts={[
                   'Full Stack Java Developer',
-                  'Spring Boot Expert',
+                  'Spring Boot Developer',
                   'React.js Developer',
                   'AWS Cloud Engineer',
-                  'Microservices Architect'
+                  'Microservices Architecture'
                 ]}
                 speed={100}
                 deleteSpeed={50}
@@ -49,13 +49,21 @@ const Hero = () => {
             <div className="floating-card card-2 animate-float-delay">
               <div className="card-content">
                 <div className="icon animate-bounce">🍃</div>
-                <span>Spring</span>
+                <span>Spring Boot</span>
               </div>
             </div>
+            
             <div className="floating-card card-3 animate-float-delay-2">
               <div className="card-content">
                 <div className="icon animate-bounce">☁️</div>
                 <span>AWS</span>
+              </div>
+            </div>
+
+            <div className="floating-card card-4 animate-float-delay">
+              <div className="card-content">
+                <div className="icon animate-bounce">⚛️</div>
+                <span>React JS</span>
               </div>
             </div>
             <div className="hero-avatar animate-scale-in">

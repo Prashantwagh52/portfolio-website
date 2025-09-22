@@ -96,14 +96,20 @@
 }
 
 .card-2 {
-  top: 60%;
-  right: 20%;
+  top: 40%;
+  right: 0%;
   animation: float 6s ease-in-out infinite 2s;
 }
 
 .card-3 {
-  bottom: 20%;
+  bottom: 15%;
   left: 20%;
+  animation: float 6s ease-in-out infinite 4s;
+}
+
+.card-4 {
+  top: 10%;
+  right: 20%;
   animation: float 6s ease-in-out infinite 4s;
 }
 

@@ -7,8 +7,8 @@ const About = () => {
     { name: 'Spring Boot', level: 90, icon: '🍃' },
     { name: 'React.js', level: 85, icon: '⚛️' },
     { name: 'AWS', level: 80, icon: '☁️' },
-    { name: 'MySQL', level: 85, icon: '🗄️' },
-    { name: 'Docker', level: 75, icon: '🐳' }
+    // { name: 'MySQL', level: 85, icon: '🗄️' },
+    // { name: 'Docker', level: 75, icon: '🐳' }
   ]
 
   return (
@@ -62,6 +62,47 @@ const About = () => {
                   </div>
                 </div>
               ))}
+            </div>
+          </div>
+        </div>
+        
+        <div className="additional-content">
+          <div className="achievements-section">
+            <h3>Key Achievements</h3>
+            <div className="achievements-grid">
+              <div className="achievement-card">
+                <div className="achievement-icon">🏆</div>
+                <h4>Enterprise Projects</h4>
+                <p>Led development of 2 major enterprise applications from scratch</p>
+              </div>
+              <div className="achievement-card">
+                <div className="achievement-icon">⚡</div>
+                <h4>Performance Optimization</h4>
+                <p>Reduced manual SAP operations by 60% through automation</p>
+              </div>
+              <div className="achievement-card">
+                <div className="achievement-icon">👥</div>
+                <h4>Team Leadership</h4>
+                <p>Mentored 5 junior developers, improving team productivity by 25%</p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="certifications-section">
+            <h3>Certifications & Learning</h3>
+            <div className="cert-list">
+              <div className="cert-item">
+                <span className="cert-icon">📜</span>
+                <span>Full Stack Java Development</span>
+              </div>
+              <div className="cert-item">
+                <span className="cert-icon">☁️</span>
+                <span>AWS Cloud Practitioner Essentials</span>
+              </div>
+              <div className="cert-item">
+                <span className="cert-icon">🎓</span>
+                <span>Bachelor of Technology - 8.4 CGPA</span>
+              </div>
             </div>
           </div>
         </div>
